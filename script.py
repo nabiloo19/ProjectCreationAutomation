@@ -3,15 +3,15 @@ import sys
 from github import Github
 
 # ENTER YOUR GITHUB USERNAME
-git_username = "<USERNAME>"
+git_username = "nabiloo19"
 
 # ENTER YOUR GITHUB PASSWORD
-git_password = "<PASSWORD>"
+git_password = "12345Nabil" #I WILL PUT MY PASSWORD HERE
 
 # ENTER THE COMPLETE PATH TO YOUR LOCATION WHERE YOU WANT TO SAVE YOUR PROJECTS
 # e.g. C:/Users/<USERNAME>/Documents/Projects/
 ## !!!YOU MUST SEPERATE FOLDERS WITH NORMAL-SLASHES NOT BACK-SLASHES AND AT THE END PUT A SLASH LIKE IN THE EXAMPLE!!!
-path = "<PATH>"
+path = "C:/Users/nabil/Documents/workspace/"
 
 def create_folder_and_repo():
     folder_name = str(sys.argv[1])
